@@ -32,3 +32,5 @@ config/main.js
 src/client/*build.js
 coverage
 .nyc_output
+
+#docker-compose env file
