@@ -1,0 +1,47 @@
+{
+  "requiresAttributes": [],
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:667159638852:task-definition/engauge-server:1",
+  "networkMode": "bridge",
+  "status": "ACTIVE",
+  "revision": 1,
+  "taskRoleArn": null,
+  "containerDefinitions": [
+    {
+      "volumesFrom": [],
+      "memory": 300,
+      "extraHosts": null,
+      "dnsServers": null,
+      "disableNetworking": null,
+      "dnsSearchDomains": null,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80,
+          "protocol": "tcp"
+        }
+      ],
+      "hostname": null,
+      "essential": true,
+      "entryPoint": [],
+      "mountPoints": [],
+      "name": "engauge",
+      "ulimits": null,
+      "dockerSecurityOptions": null,
+      "environment": [],
+      "links": [],
+      "workingDirectory": null,
+      "readonlyRootFilesystem": null,
+      "image": "registry.hub.docker.com/library/stolemyusername/engauge:latest",
+      "command": [],
+      "user": null,
+      "dockerLabels": null,
+      "logConfiguration": null,
+      "cpu": 10,
+      "privileged": null,
+      "memoryReservation": null
+    }
+  ],
+  "placementConstraints": [],
+  "volumes": [],
+  "family": "engauge-server"
+}
